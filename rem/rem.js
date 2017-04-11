@@ -1,11 +1,4 @@
-(function (window, document) {
-
-    function isMobile() {
-        return /mobile|tablet|ip(ad|hone|od)|android/i.test(navigator.userAgent)
-    }
-
-    if (!isMobile()) return
-
+(function (window, document) { 
     var designWidth = 640, // 设计稿尺寸
         rem2px = 100, // 1rem=N像素
         domRoot = window,
