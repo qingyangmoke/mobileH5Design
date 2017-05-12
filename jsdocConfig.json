@@ -1,0 +1,26 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "opts": {
+        "destination": "./docs/"
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "templates": {
+        "systemName": "mobileH5Design",
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "default": {
+            "outputSourceFiles": true
+        },
+        "path": "ink-docstrap",
+        "theme": "flatly",
+        "navType": "vertical",
+        "linenums": true,
+        "dateFormat": "MMMM Do YYYY, h:mm:ss a",
+        "copyright": "@qingyangmoke",
+        "footer": ""
+    }
+}
